@@ -1,0 +1,33 @@
+{
+  "cli": {
+    "version": ">= 6.0.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "production": {
+      "env": {
+        "GOOGLE_SERVICES_JSON": "@GOOGLE_SERVICES_JSON"
+      },
+      "developmentClient": false,
+      "distribution": "store",
+      "autoIncrement": true
+    },
+    "preview": {
+      "env": {
+        "GOOGLE_SERVICES_JSON": "@GOOGLE_SERVICES_JSON"
+      },
+      "distribution": "internal",
+      "developmentClient": true
+    },
+    "development": {
+      "env": {
+        "GOOGLE_SERVICES_JSON": "@GOOGLE_SERVICES_JSON"
+      },
+      "distribution": "internal",
+      "developmentClient": true
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

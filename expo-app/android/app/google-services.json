@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "494076805294",
+    "project_id": "nextjs-expo-project",
+    "storage_bucket": "nextjs-expo-project.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494076805294:android:35d088d8593cf3ab382d3f",
+        "android_client_info": {
+          "package_name": "com.anshika.expoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4gPOMrBtsTKt4m-zLWOYrdrAIOWxcYIc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
